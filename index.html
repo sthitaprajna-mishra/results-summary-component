@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body
+    class="font-hanken md:flex md:items-center md:justify-center md:min-h-screen"
+  >
+    <div
+      class="flex flex-col sh pb-0 rounded-3xl mb-6 md:flex-row md:max-w-xl md:mb-0"
+    >
+      <div class="rounded-l-3xl text-center bg-white md:w-1/2">
+        <div
+          class="rounded-3xl rounded-t-none md:rounded-3xl bg-gradient-to-b from-bgLightSlateBlue to-bgLightRoyalBlue p-8"
+        >
+          <h1 class="text-xl text-paleBlue">Your Result</h1>
+          <div
+            class="mx-auto p-8 px-10 rounded-full my-4 bg-gradient-to-b from-circleVioletBlue to-circlePersianBlue w-fit text-center"
+          >
+            <h1 class="text-5xl text-white font-extrabold">76</h1>
+            <h2 class="text-sm mt-1 text-paleBlue">of 100</h2>
+          </div>
+          <div>
+            <h1 class="text-2xl text-white font-bold">Great</h1>
+            <p class="mt-2 text-sm text-paleBlue px-16 md:px-4">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-8 pb-0 rounded-3xl rounded-bl- bg-white md:w-1/2">
+        <h1 class="text-xl font-bold">Summary</h1>
+        <div
+          class="bg-lightRed flex items-center justify-between text-sm p-2 rounded-lg mb-3 mt-6"
+        >
+          <div class="flex space-x-2">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+            <h2 class="text-fontLightRed font-bold">Reaction</h2>
+          </div>
+          <div>
+            <h2><span class="font-bold">80</span> / 100</h2>
+          </div>
+        </div>
+        <div
+          class="bg-orangeyYellow flex items-center justify-between text-sm p-2 rounded-lg mb-3"
+        >
+          <div class="flex space-x-2">
+            <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+            <h2 class="text-fontOrangeyYellow font-bold">Memory</h2>
+          </div>
+          <div>
+            <h2><span class="font-bold">92</span> / 100</h2>
+          </div>
+        </div>
+        <div
+          class="bg-greenTeal flex items-center justify-between text-sm p-2 rounded-lg mb-3"
+        >
+          <div class="flex space-x-2">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
+            <h2 class="text-fontGreenTeal font-bold">Verbal</h2>
+          </div>
+          <div>
+            <h2><span class="font-bold">61</span> / 100</h2>
+          </div>
+        </div>
+        <div
+          class="bg-cobaltBlue flex items-center justify-between text-sm p-2 rounded-lg mb-3"
+        >
+          <div class="flex space-x-2">
+            <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+            <h2 class="text-fontCobaltBlue font-bold">Visual</h2>
+          </div>
+          <div>
+            <h2><span class="font-bold">72</span> / 100</h2>
+          </div>
+        </div>
+        <div
+          class="bg-darkGrayBlue text-white rounded-full text-center mt-7 py-2 mb-0 hover:bg-bgLightRoyalBlue hover:cursor-pointer transition-all"
+        >
+          Continue
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
