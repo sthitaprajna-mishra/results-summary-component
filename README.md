@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontendmentor URL](https://your-solution-url.com)
-- Live Site URL: [Netlify URL](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor URL](https://www.frontendmentor.io/solutions/results-summary-component-tailwindcss-7DRI4_QWzn)
+- Live Site URL: [Netlify URL](https://results-summary-component-fe-mentor.netlify.app/)
 
 ## My process
 
